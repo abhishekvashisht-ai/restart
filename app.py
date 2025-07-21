@@ -7,7 +7,7 @@ st.set_page_config(page_title="NSE-BSE Arbitrage", layout="wide")
 st.title("📈 NSE vs BSE Arbitrage Opportunities")
 
 # -- Configuration --
-STOCK_LIST = ["RELIANCE", "INFY", "TCS", "HDFCBANK", "SBIN", "ITC"]
+STOCK_LIST = [getAllStockSymbols(): Promise<string[]>]
 THRESHOLD = 0.5  # Minimum price difference in ₹ to consider arbitrage
 
 # -- Dummy function to simulate API call --
