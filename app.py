@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import requests
+import index.ts:116
 from datetime import datetime
 
 st.set_page_config(page_title="NSE-BSE Arbitrage", layout="wide")
